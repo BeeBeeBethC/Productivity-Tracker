@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tracker',
     'django_summernote',
+    'django-environ',
 ]
 
 MIDDLEWARE = [
