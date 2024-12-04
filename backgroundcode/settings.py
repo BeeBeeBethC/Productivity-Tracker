@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-cbe&id-ot-+nx4qi0&xk9nba27&m%0s1)6t7h!es8$az1vw@w0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-beebeebethc-productivit-qciatezki56.ws.codeinstitute-ide.net',
-'.herokuapp.com']
+ALLOWED_HOSTS = [
+    '8000-beebeebethc-productivit-qciatezki56.ws.codeinstitute-ide.net',
+    '.herokuapp.com',
+    'https://productivity-tracker-317e07501d6d.herokuapp.com/'
+    ]
 
 
 # Application definition
