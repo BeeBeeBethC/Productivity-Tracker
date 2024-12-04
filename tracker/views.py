@@ -1,6 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views import generic
+from .models import tracker
 
 # Create your views here.
-def my_tracker(request):
-    return HttpResponse("Hello Tracker!")
+class TrackerList(generic.ListView):
+    model = tracker

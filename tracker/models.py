@@ -21,7 +21,7 @@ class custom_user(models.Model):
     def __str__(self):
         return self.email
 
-class Tracker(models.Model):
+class tracker(models.Model):
     username = models.ForeignKey(User, on_delete=models.CASCADE)
     task = models.CharField(max_length=128, unique=True)
     task_completed = models.BooleanField(default=False)
