@@ -3,5 +3,5 @@ from django.views import generic
 from .models import tracker
 
 # Create your views here.
-class Tracker(generic.ListView):
-    model = tracker
+class Tracker(generic):
+    model = 'tracker'
