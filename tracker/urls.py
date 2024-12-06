@@ -1,7 +1,7 @@
 from . import views
-from .views import Tracker
+from .views import tracker
 from django.urls import path
 
 urlpatterns = [
-    path('', views.Tracker.as_view(), name='home'),
+    path('', views.tracker.as_view(), name='home'),
 ]
